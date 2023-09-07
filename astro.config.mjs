@@ -5,21 +5,48 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Flutter Fast',
+			logo: {
+				src: './src/assets/flutter-fast.png',
+			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/CodeOTR/flutter-fast-guide',
+				twitter: 'https://twitter.com/CodeOnTheRocks_',
+				threads: 'https://www.threads.net/@codeontherocks',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Start Here',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Why Flutter Fast?', link: '/start/why/' },
+						{ label: 'Installation', link: '/start/installation/' },
+						{ label: 'Updates', link: '/start/updates/' },
+						{ label: 'Build an App', link: '/start/build/' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Setup Steps',
+					items: [
+						{ label: 'Setup?', link: '/setup/overview/' },
+						{ label: 'Firebase', link: '/setup/firebase/' },
+						{ label: 'Supabase', link: '/setup/supabase/' },
+						{ label: 'Sentry', link: '/setup/sentry/' },
+						{ label: 'Amplitude', link: '/setup/amplitude/' },
+						{ label: 'RevenueCat', link: '/setup/revenuecat/' },
+					],
+				},
+				{
+					label: 'Features',
+					items: [
+						{ label: 'List', link: '/features/overview/' },
+					],
+				},
+				{
+					label: 'Roadmap',
+					items: [
+						{ label: 'Planned Features', link: '/roadmap/plan/' },
+					],
 				},
 			],
 		}),
