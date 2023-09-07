@@ -14,7 +14,7 @@ Under the hood, the CLI calls `flutter create --empty` to create the basic Flutt
 | org  (optional) | o | The organization name in reverse domain format |
 | paas (optional) | p | The Platform-as-a-Service the app should use. Valid options are "firebase" and "supabase" |
 
-Running the above command will create a Flutter application with the required code for _all_ Platform-as-a-Service providers (Firebase and Supabase). By default, the app will use the Firebase files but you can change this behavior by updating the default "PAAS" string in `get_it.dart` or by running the application with a `--dart-define=PAAS=supabase argument`.
+Running the above command will create a Flutter application with the required code for _all_ Platform-as-a-Service providers (Firebase and Supabase). By default, the app will use the Firebase files but you can change this behavior by updating the default "PAAS" string in `get_it.dart`:
 
 ```dart
 @InjectableInit(
@@ -26,6 +26,11 @@ Future<void> configureDependencies() async => await $initGetIt(
       getIt,
       environment: const String.fromEnvironment('PAAS', defaultValue: 'firebase'), // Change this to supabase
     );
+```
+
+Or by running the application with a `--dart-define=PAAS=supabase` argument:
+```
+flutter run --dart-define=PAAS=supabase
 ```
 
 ## Perform the Setup Steps
