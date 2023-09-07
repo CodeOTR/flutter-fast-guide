@@ -26,3 +26,5 @@ description: Flutter Fast Roadmap
 🔲 Option to remove service abstractions
 
 🔲 Alternative authentication methods
+
+🔲 Basic library viewer module for all PaaS providers

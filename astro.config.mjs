@@ -7,6 +7,7 @@ export default defineConfig({
     base: '/flutter-fast-guide',
 	integrations: [
 		starlight({
+			favicon: 'favicon.ico',
 			title: 'Flutter Fast',
 			logo: {
 				src: './src/assets/flutter-fast.png',
