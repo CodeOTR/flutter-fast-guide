@@ -30,24 +30,24 @@ export default defineConfig({
 				{
 					label: 'Setup Steps',
 					items: [
-						{ label: 'Setup?', link: '/flutter-fast-guide/setup/overview/' },
-						{ label: 'Firebase', link: '/flutter-fast-guide/setup/firebase/' },
-						{ label: 'Supabase', link: '/flutter-fast-guide/setup/supabase/' },
-						{ label: 'Sentry', link: '/flutter-fast-guide/setup/sentry/' },
-						{ label: 'Amplitude', link: '/flutter-fast-guide/setup/amplitude/' },
-						{ label: 'RevenueCat', link: '/flutter-fast-guide/setup/revenuecat/' },
+						{ label: 'Setup?', link: '/setup/overview/' },
+						{ label: 'Firebase', link: '/setup/firebase/' },
+						{ label: 'Supabase', link: '/setup/supabase/' },
+						{ label: 'Sentry', link: '/setup/sentry/' },
+						{ label: 'Amplitude', link: '/setup/amplitude/' },
+						{ label: 'RevenueCat', link: '/setup/revenuecat/' },
 					],
 				},
 				{
 					label: 'Features',
 					items: [
-						{ label: 'List', link: '/flutter-fast-guide/features/overview/' },
+						{ label: 'List', link: '/features/overview/' },
 					],
 				},
 				{
 					label: 'Roadmap',
 					items: [
-						{ label: 'Planned Features', link: '/flutter-fast-guide/roadmap/plan/' },
+						{ label: 'Planned Features', link: '/roadmap/plan/' },
 					],
 				},
 			],
