@@ -1,5 +1,5 @@
 ---
-title: List
+title: All Features
 description: Flutter Fast feature list
 ---
 Flutter Fast apps are designed to give you everything you need (and want) in a starter Flutter app. This page will provide a comprehensive list of the Flutter Fast features.
