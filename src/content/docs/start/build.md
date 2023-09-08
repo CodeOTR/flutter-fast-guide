@@ -35,7 +35,7 @@ Or by running the application with a `--dart-define=PAAS=supabase` argument:
 flutter run --dart-define=PAAS=supabase
 ```
 
-## Perform the Setup Steps
+## Tool Setup Steps
 
 The Flutter Fast CLI takes care of the Flutter code but you'll still need to setup the peripheral tools you want to use.
 
@@ -44,7 +44,16 @@ For example, if you chose "firebase", you'll need to
 2. Run the  `flutterfire config` command
 3. Turn on the email auth setting (see more in the Firebase setup section). 
 
-If you chose "supabase", you'll need to perform a similar set of setup steps. This will typically be the slowest part of getting started.
+If you chose "supabase", you'll need to perform a similar set of setup steps. 
+
+You can find all setup step instructions in the [Setup Steps](/flutter-fast-guide/setup/overview/) section. This will typically be the slowest part of getting started.
+
+## Replace the App Logo
+In the `assets/images` folder there is a placeholder image called logo.png. Replace this image with your own but keep the name the same ("logo.png"). Then, run the following command:
+
+```
+flutter pub run flutter_launcher_icons
+```
 
 ## Run the App
 Once the setup steps are complete (and you've added all necessary environment variables to your config.json file), you can run the app. The UI and UX should be nearly identical regardless of the tools you chose. All of the magic happens via abstract services and get_it registration tricks:

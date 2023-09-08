@@ -24,8 +24,8 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Why Flutter Fast?', link: '/start/why/' },
 						{ label: 'Installation', link: '/start/installation/' },
-						{ label: 'Updates', link: '/start/updates/' },
 						{ label: 'Build an App', link: '/start/build/' },
+						{ label: 'Updates', link: '/start/updates/' },
 					],
 				},
 				{
@@ -49,6 +49,7 @@ export default defineConfig({
 					label: 'Roadmap',
 					items: [
 						{ label: 'Planned Features', link: '/roadmap/plan/' },
+						{ label: 'Changelog', link: '/roadmap/changelog/' },
 					],
 				},
 			],
