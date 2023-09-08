@@ -2,8 +2,10 @@
 title: Supabase
 description: Set up your Flutter Fast Supabase project
 ---
+## Before Generating Your App
 Create a Supabase account and project: https://supabase.com/
 
+## After Generating Your App
 After creating your Supabase project, add the following variables to your `config.json` file:
 
 ```

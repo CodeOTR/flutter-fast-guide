@@ -2,8 +2,10 @@
 title: Sentry
 description: Flutter Fast setup steps for Sentry crash reporting
 ---
+## Before Generating Your App
 Create a Sentry account and project: https://docs.sentry.io/?original_referrer=https://docs.sentry.io/
 
+## After Generating Your App
 Once completed, add the following variable to your `config.json` file:
 ```
 "SENTRY_DSN": "",

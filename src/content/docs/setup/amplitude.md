@@ -2,9 +2,11 @@
 title: Amplitude
 description: Flutter Fast setup steps for Amplitude analytics
 ---
-Create an Amplitude account and project and then find your API key: "AMPLITUDE_API_KEY": "",
+## Before Generating Your App
+Create an Amplitude account and project.
 
-Once found, add the following variable to your `config.json` file:
+## After Generating Your App
+Find your Amplitude API key and add the following variable to your `config.json` file:
 ```
 "AMPLITUDE_API_KEY": "",
 ```

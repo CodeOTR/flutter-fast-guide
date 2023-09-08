@@ -2,8 +2,10 @@
 title: RevenueCat
 description: Flutter Fast setup steps for RevenueCat subscription management
 ---
+## Before Generating Your App
 Follow the steps here: https://www.revenuecat.com/docs/projects
 
+## After Generating Your App
 Once you've setup your Android and iOS apps in RevenuCat, add the following variables to your `config.json` file:
 ```
 "GOOGLE_SDK_KEY": "",
