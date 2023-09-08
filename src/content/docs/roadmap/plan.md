@@ -13,6 +13,8 @@ description: Flutter Fast Roadmap
 
 🔲 [Stripe](https://stripe.com/) payments
 
+🔲 [Mixpanel](https://mixpanel.com/) support
+
 🔲 Remote config options ([Firebase RC](https://firebase.google.com/docs/remote-config/get-started?platform=ios), [Apptemize](https://apptimize.com/), [LaunchDarkly](https://launchdarkly.com/))
 
 🔲 Media Storage support for all PaaS providers
