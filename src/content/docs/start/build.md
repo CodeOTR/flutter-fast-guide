@@ -7,12 +7,14 @@ The Flutter Fast CLI currently has a single command that's used to build a new F
 ```
 fast app -n my_app -o com.example
 ```
-Under the hood, the CLI calls `flutter create --empty` to create the basic Flutter app project structure. There are three inputs:
+Under the hood, the CLI calls `flutter create --empty` to create the basic Flutter app project structure. There allowed arguments are shown here:
 | Option | Abbreviation | Description |
 | --- | --- | --- | 
 | name (required) | n | The name of the Flutter app. This should follow the [Dart package naming conventions](https://dart.dev/tools/pub/pubspec#name) |
 | org  (optional) | o | The organization name in reverse domain format |
 | paas (optional) | p | The Platform-as-a-Service the app should use. Valid options are "firebase" and "supabase" |
+| build (optional) | b | Whether to run the build_runner after the app has been created. Defaults to true. |
+| subs (optional) | s | Whether to include subscriptions in the app. Defaults to true. |
 
 Running the above command will create a Flutter application with the required code for _all_ Platform-as-a-Service providers (Firebase and Supabase). By default, the app will use the Firebase files but you can change this behavior by updating the default "PAAS" string in `get_it.dart`:
 

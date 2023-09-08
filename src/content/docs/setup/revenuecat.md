@@ -15,3 +15,9 @@ These can be found here:
 Projects -> {Your Project} -> Apps -> {Your App} -> Public API Key.
 
 The [Flutter setup steps](https://www.revenuecat.com/docs/flutter) will be completed by the Flutter Fast CLI.
+
+## Remove RevenueCat
+You can easily remove all code related to the subscriptions feature by including `--no-subs` in your fast app command:
+```
+fast app -n my_app --no-subs
+```
