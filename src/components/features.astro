@@ -1,0 +1,65 @@
+---
+import { Icon } from "astro-icon";
+import ContentSection from "~/components/content-section.astro";
+import type { FeatureItem } from "~/types";
+
+const features: Array<FeatureItem> = [
+  {
+    title: "Authentication",
+    description:
+      "Sign in, Register, Forgot Password, and Profile screens • Authentication based routing • Firebase and Supabase support",
+    icon: "mdi:lock",
+  },
+  {
+    title: "User Management",
+    description:
+      "ID-based user management • Firestore and Supabase implementations • Created at and last login timestamps",
+      
+    icon: "mdi:users",
+  },
+  {
+    title: "Deployment",
+    description:
+      "Fastlane setup • Preconfigured bash scripts • Easy config.json setup • Shorebird commands for OTA updates",
+    icon: "mdi:directions-fork",
+  },
+  {
+    title: "Fundamentals",
+    description:
+      "RevenueCat subscriptions • Amplitude analytics • Sentry crash reporting • ",
+    icon: "ph:money-bold",
+  },
+  {
+    title: "Zero Code Setup",
+    description:
+      "Run-ready codebase • Tool setup instructions • Android and iOS file updates • CLI commands for easy setup",
+    icon: "mdi:rocket",
+  },
+  {
+    title: "Customization",
+    description:
+      "Choose your stack • Choose your features • Simple logo update • Custom app name and bundle ID",
+    icon: "mdi:wrench",
+  },
+];
+---
+
+<ContentSection title="Features" id="features">
+  <Fragment slot="lead">
+    Flutter Fast apps come with <span class="text-green-400">batteries included</span>. We've hand-picked the  
+    <span class="text-green-400">best tools</span> for scale.
+  </Fragment>
+  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    {
+      features.map(({ title, description, icon }) => (
+        <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <Icon name={icon} />
+          </div>
+          <p class="text-center font-extrabold text-xl">{title}</p>
+          <p class="text-center text-offset text-sm">{description}</p>
+        </li>
+      ))
+    }
+  </ul>
+</ContentSection>

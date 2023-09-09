@@ -1,0 +1,89 @@
+---
+import CompatibilityList from "~/components/compatibility-list.astro";
+import ContentSection from "~/components/content-section.astro";
+import type { CompatibilityItem } from "~/types";
+
+const modules: Array<CompatibilityItem> = [
+  {
+    title: "Feedback",
+    icon: "ic:baseline-feedback",
+    url: "flutter-fast-guide/docs/start/build",
+  },
+  {
+    title: "RSS Feed",
+    icon: "mdi:rss",
+    url: "/docs/features/overview",
+  },
+  {
+    title: "Subscriptions",
+    icon: "ph:money",
+    url: "/docs/features/overview",
+  },
+  {
+    title: "AI Chat",
+    icon: "mdi:robot",
+    url: "/docs/features/overview",
+  },
+  {
+    title: "Settings",
+    icon: "mdi:cog",
+    url: "/docs/features/overview",
+  },
+  {
+    title: "Profile",
+    icon: "mdi:user",
+    url: "/docs/features/overview",
+  },
+];
+
+const platforms: Array<CompatibilityItem> = [
+  {
+    title: "Firebase",
+    icon: "mdi:firebase",
+    url: "https://vercel.com/",
+  },
+  {
+    title: "Sentry",
+    icon: "cib:sentry",
+    url: "https://sentry.io/welcome/",
+  },
+  {
+    title: "Supabase",
+    icon: "simple-icons:supabase",
+    url: "https://supabase.com/",
+  },
+  {
+    title: "Amplitude",
+    icon: "mdi:amplitude",
+    url: "https://amplitude.com/",
+  },
+  {
+    title: "RevenueCat",
+    icon: "mdi:cat",
+    url: "https://www.revenuecat.com/",
+  },
+  {
+    title: "Fastlane",
+    icon: "simple-icons:fastlane",
+    url: "https://fastlane.tools/",
+  },
+];
+---
+
+<ContentSection title="Choose Your Stack" id="stack">
+  <Fragment slot="lead">
+    Build with the tools <span class="text-green-400">you want</span>. Choose from a growing list of
+    <span class="text-green-400">pre-built modules</span>
+     and <span class="text-green-400">platforms</span>.
+  </Fragment>
+  <CompatibilityList
+    items={platforms}
+    title="Platforms"
+    url="https://codeotr.github.io/flutter-fast-guide/setup/overview/"
+  />
+  <CompatibilityList
+    items={modules}
+    title="Modules"
+    url="https://codeotr.github.io/flutter-fast-guide/features/overview/"
+  />
+</ContentSection>

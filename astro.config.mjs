@@ -1,18 +1,20 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import markdoc from '@astrojs/markdoc';
+import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://github.com/CodeOTR',
     base: '/flutter-fast-guide',
 	integrations: [
-		markdoc(),
+		tailwind(),
 		starlight({
+			
 			favicon: 'favicon.ico',
 			title: 'Flutter Fast',
 			logo: {
-				src: './src/assets/flutter-fast.png',
+				src: './src/assets/flutter-fast-small.png',
+				
 			},
 			social: {
 				github: 'https://github.com/CodeOTR/flutter-fast-guide',
@@ -24,34 +26,34 @@ export default defineConfig({
 					label: 'Start Here',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Why Flutter Fast?', link: '/start/why/' },
-						{ label: 'Installation', link: '/start/installation/' },
-						{ label: 'Build an App', link: '/start/build/' },
-						{ label: 'Updates', link: '/start/updates/' },
+						{ label: 'Why Flutter Fast?', link: '/docs/start/why/' },
+						{ label: 'Installation', link: '/docs/start/installation/' },
+						{ label: 'Build an App', link: '/docs/start/build/' },
+						{ label: 'Updates', link: '/docs/start/updates/' },
 					],
 				},
 				{
 					label: 'Setup Steps',
 					items: [
-						{ label: 'Setup?', link: '/setup/overview/' },
-						{ label: 'Firebase', link: '/setup/firebase/' },
-						{ label: 'Supabase', link: '/setup/supabase/' },
-						{ label: 'Sentry', link: '/setup/sentry/' },
-						{ label: 'Amplitude', link: '/setup/amplitude/' },
-						{ label: 'RevenueCat', link: '/setup/revenuecat/' },
+						{ label: 'Setup?', link: '/docs/setup/overview/' },
+						{ label: 'Firebase', link: '/docs/setup/firebase/' },
+						{ label: 'Supabase', link: '/docs/setup/supabase/' },
+						{ label: 'Sentry', link: '/docs/setup/sentry/' },
+						{ label: 'Amplitude', link: '/docs/setup/amplitude/' },
+						{ label: 'RevenueCat', link: '/docs/setup/revenuecat/' },
 					],
 				},
 				{
 					label: 'Features',
 					items: [
-						{ label: 'List', link: '/features/overview/' },
+						{ label: 'List', link: '/docs/features/overview/' },
 					],
 				},
 				{
 					label: 'Roadmap',
 					items: [
-						{ label: 'Planned Features', link: '/roadmap/plan/' },
-						{ label: 'Changelog', link: '/roadmap/changelog/' },
+						{ label: 'Planned Features', link: '/docs/roadmap/plan/' },
+						{ label: 'Changelog', link: '/docs/roadmap/changelog/' },
 					],
 				},
 			],

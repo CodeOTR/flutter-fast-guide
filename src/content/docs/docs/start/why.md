@@ -31,7 +31,7 @@ The Flutter Fast CLI solves this problem. In less than 60 seconds (30 seconds, u
 
 ✍️ AppWrite? Soon!
 
-![Flutter Fast generation time](../../../assets/fast-gen.png)
+![Flutter Fast generation time](../../../../assets/fast-gen.png)
 
 ### Save Time
 Don't waste time and that excited energy building the same features you've built a thousand times. With Flutter Fast, you'll save 10+ hours in what would have been tedious setup development.
