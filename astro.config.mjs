@@ -21,20 +21,20 @@ export default defineConfig({
     sidebar: [{
       label: 'Start Here',
       items: [
-      // Each item here is one entry in the navigation menu.
-      {
-        label: 'Why Flutter Fast?',
-        link: '/docs/start/why/'
-      }, {
-        label: 'Installation',
-        link: '/docs/start/installation/'
-      }, {
-        label: 'Build an App',
-        link: '/docs/start/build/'
-      }, {
-        label: 'Updates',
-        link: '/docs/start/updates/'
-      }]
+        // Each item here is one entry in the navigation menu.
+        {
+          label: 'Why Flutter Fast?',
+          link: '/docs/start/why/'
+        }, {
+          label: 'Installation',
+          link: '/docs/start/installation/'
+        }, {
+          label: 'Build an App',
+          link: '/docs/start/build/'
+        }, {
+          label: 'Updates',
+          link: '/docs/start/updates/'
+        }]
     }, {
       label: 'Setup Steps',
       items: [{
@@ -55,6 +55,10 @@ export default defineConfig({
       }, {
         label: 'RevenueCat',
         link: '/docs/setup/revenuecat/'
+      },
+      {
+        label: 'Fastlane',
+        link: '/docs/setup/fastlane/'
       }]
     }, {
       label: 'Features',
