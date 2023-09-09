@@ -1,5 +1,7 @@
 ---
 import { Icon } from "astro-icon";
+import { Image } from "astro:assets";
+import flutterFastImage from "~/assets/flutter-fast.png";
 import ThemeSwitcher from "~/components/theme-switcher.astro";
 import type { NavItem } from "~/types";
 
@@ -57,7 +59,12 @@ const navItems: Array<NavItem> = [
             </button>
           </header>
           <div class="flex justify-center">
-            <Icon name="logomark" class="h-16" />
+           <Image
+              src={flutterFastImage}
+              alt="Flutter Fast"
+              width="200"
+              height="200"
+            />
           </div>
           <nav>
             <ul class="flex flex-col">
