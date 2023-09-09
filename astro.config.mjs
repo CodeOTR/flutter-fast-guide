@@ -8,13 +8,22 @@ export default defineConfig({
   site: 'https://github.com/CodeOTR',
   base: '/flutter-fast-guide',
   integrations: [
-    tailwind(), 
+    tailwind(
+      // {	applyBaseStyles: false,}
+    ), 
     starlight({
     favicon: 'favicon.ico',
     title: 'Flutter Fast',
     logo: {
       src: './src/assets/flutter-fast-small.png'
     },
+    customCss: 
+      [
+        './src/styles/index.css',
+       './src/styles/tailwind.css',
+
+  ]
+    ,
     social: {
       github: 'https://github.com/CodeOTR/flutter-fast-guide',
       twitter: 'https://twitter.com/CodeOnTheRocks_',
