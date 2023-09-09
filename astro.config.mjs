@@ -7,7 +7,9 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://github.com/CodeOTR',
   base: '/flutter-fast-guide',
-  integrations: [tailwind(), starlight({
+  integrations: [
+    tailwind(), 
+    starlight({
     favicon: 'favicon.ico',
     title: 'Flutter Fast',
     logo: {

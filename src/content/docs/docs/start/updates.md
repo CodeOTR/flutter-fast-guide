@@ -21,3 +21,6 @@ dart pub global list
 
 flutter_fast_cli 1.0.1 at path "/Users/josephmuller/Dev/cotr/apps/flutter_fast_cli"
 ```
+- test 
+- test
+- test
