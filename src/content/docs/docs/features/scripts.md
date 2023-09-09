@@ -14,3 +14,19 @@ flutter pub get
 rm pubspec.lock && flutter pub get
 ```
 
+### Build Android
+```bash
+flutter build appbundle --dart-define-from-file=assets/config.json
+```
+
+## Android Internal Fastlane
+```bash
+cd android
+fastlane internal
+```
+
+## iOS Beta Fastlane
+```bash
+cd ios
+fastlane beta
+```

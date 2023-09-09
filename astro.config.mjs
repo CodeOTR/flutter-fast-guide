@@ -80,6 +80,10 @@ export default defineConfig({
       items: [{
         label: 'List',
         link: '/docs/features/overview/'
+      },
+      {
+        label: 'Scripts',
+        link: '/docs/features/scripts/'
       }]
     }, {
       label: 'Roadmap',
