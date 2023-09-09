@@ -6,8 +6,14 @@ description: Set up your Flutter Fast Firebase project
 Create a new [Firebase project](https://firebase.google.com/docs/projects/learn-more).
 
 In the Firebase Console:
-1. Create a new Firestore database
+1. Create a new Firestore database. Be sure to update the rules so you can make requests
+
+![Firestore rules](../../../assets/firestore-rules.png)
+
 2. Set up [Firebase Authentication](https://firebase.google.com/docs/auth/flutter/start) and enable email authentication (Authentication -> Sign-in method -> Native providers -> Email/Password)
+
+![Enable email authentication](../../../assets/email_auth.png)
+
 
 ## After Generating Your App
 Run the flutterfire config command and select the project you just created. A `firebase_options.dart` file should be added to the lib directory. 
