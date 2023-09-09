@@ -3,6 +3,11 @@ title: Changelog
 description: Flutter Fast Changelog
 ---
 
+## 1.0.3 (9-09-2023)
+- 🟩 Added Android Studio run configuration and VS code launch.json file
+- 🟩 Added basic Flutter scripts
+- 🟨 Moved existing Android Studio run configurations into template path. No more manually updating paths
+
 ## 1.0.2 (9-08-2023)
 - 🟥 Removed dependency on uuid package for Supabase builds
 - 🟩 Created DashboardView as new default widget on home page

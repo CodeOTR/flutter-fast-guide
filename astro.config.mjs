@@ -40,10 +40,14 @@ export default defineConfig({
           label: 'Installation',
           link: '/docs/start/installation/'
         }, {
-          label: 'Build an App',
+          label: 'Building',
           link: '/docs/start/build/'
-        }, {
-          label: 'Updates',
+        }, 
+        {
+          label: 'Deploying',
+          link: '/docs/start/deploy/'
+        },{
+          label: 'CLI Updates',
           link: '/docs/start/updates/'
         }]
     }, {

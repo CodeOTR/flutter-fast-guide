@@ -6,12 +6,16 @@ description: Flutter Fast setup steps for Fastlane automation
 Nothing to do ☕️
 
 ## After Generating Your App
+
+### Get your Credentials
+Follow the instructions on the [Fastlane Supply page](https://docs.fastlane.tools/actions/supply/#setup%20to%20get%20one) to create the necessary credentials for uploading to the Google Play store and the App Store.
+
 ### Create Run Configurations
 The Flutter Fast boilerplate includes simple shell scripts you can use to run the Fastlane files without using the terminal.
 
 #### Android Studio
 :::note
-This is completed for you in version 1.0.3
+This is completed for you in version 1.0.3.
 :::
 1. Select the drop down by the run button in the top toolbar
 2. Select "Edit Configurations"
