@@ -4,7 +4,7 @@ description: Flutter Fast Changelog
 ---
 
 ## 1.0.3 (9-09-2023)
-- 🟩 Android release signing setup
+- 🟩 Android release signing setup with empty key.properties
 - 🟩 Added Android Studio run configuration and VS code launch.json file
 - 🟩 Added basic Flutter scripts
 - 🟨 Moved existing Android Studio run configurations into template path. No more manually updating paths

@@ -4,23 +4,26 @@ description: How can Flutter Fast save you time, money, and brain power
 ---
 Flutter is fast by default, but setting up a new project isn't. You need...
 
-- An authentication service with sign in, sign up, forgot password, and profile pages. 
-- Onboarding logic.
-- A database. 
-- A dependency injection solution. 
-- A state management package. 
-- A theme. 
-- A handful of dependencies in your pubspec. 
-- An analysis_options.yaml file. 
-- Extensions.
-- CI/CD files.
-- A trusty .gitignore.
-- A subscription service and offering page.
-- Crash reporting.
-- An analytics infrastructure.
-- A router and navigation guards.
-- That thing you always forget.
-- That other thing you always forget.
+<ul>
+  <li>- An authentication service with sign in, sign up, forgot password, and profile pages.</li>
+  <li>- Onboarding logic.</li>
+<li>- Onboarding logic.</li>
+<li>- A database. </li>
+<li>- A dependency injection solution. </li>
+<li>- A state management package. </li>
+<li>- A theme. </li>
+<li>- A handful of dependencies in your pubspec. </li>
+<li>- An analysis_options.yaml file. </li>
+<li>- Extensions.</li>
+<li>- CI/CD files.</li>
+<li>- A trusty .gitignore.</li>
+<li>- A subscription service and offering page.</li>
+<li>- Crash reporting.</li>
+<li>- An analytics infrastructure.</li>
+<li>- A router and navigation guards.</li>
+<li>- That thing you always forget.</li>
+<li>- That other thing you always forget.</li>
+</ul>
 
 I created Flutter Fast because I wanted to jump straigt into the fun part of building my ideas without spending the first 8 hours getting everything _just_ right.
 
