@@ -1,4 +1,8 @@
-# Delete you Account
+---
+title: Delete your Account
+description: Update you Flutter Fast version
+---
+
 To delete your account, perform the following steps:
 1. Open the side drawer inside the application
 2. Select the "Profile" option
