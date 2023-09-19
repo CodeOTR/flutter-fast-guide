@@ -3,7 +3,14 @@ title: Build an App
 description: Use the Flutter Fast CLI to build an app
 ---
 ## Use the CLI
-The Flutter Fast CLI currently has a single command that's used to build a new Flutter app:
+The Flutter Fast CLI has two commands that can be used to build a new Flutter app: app and wizard.
+
+Use the `wizard` command to answer questions about your app one at time:
+```bash
+fast wizard
+```
+Otherwise, use the `app` command and specify your options using the run arguments:
+
 ```
 fast app -n my_app -o com.example
 ```
@@ -15,8 +22,9 @@ Under the hood, the CLI calls `flutter create --empty` to create the basic Flutt
 | paas (optional) | p | The Platform-as-a-Service the app should use. Valid options are "firebase" and "supabase" |
 | build (optional) | b | Whether to run the build_runner after the app has been created. Defaults to true. |
 | subs (optional) | s | Whether to include subscriptions in the app. Defaults to true. |
+| logo-color-scheme (optional) | c | Whether to generate a ColorScheme from your logo. |
 
-Running the above command will create a Flutter application with the required code for _all_ Platform-as-a-Service providers (Firebase and Supabase). By default, the app will use the Firebase files but you can change this behavior by updating the default "PAAS" string in `get_it.dart`:
+Running the above command will create a Flutter application with the required code for _all_ Platform-as-a-Service providers (Firebase, Supabase, and Appwrite). By default, the app will use the Firebase files but you can change this behavior by updating the default "PAAS" string in `get_it.dart`:
 
 ```dart
 @InjectableInit(

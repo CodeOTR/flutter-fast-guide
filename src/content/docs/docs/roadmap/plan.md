@@ -3,7 +3,9 @@ title: Plan
 description: Flutter Fast Roadmap
 ---
 ## Planned Features
-🔲 [AppWrite](https://appwrite.io/) support
+✅ [AppWrite](https://appwrite.io/) support
+
+✅ Shorebird support in CI/CD scripts
 
 🔲 [Crashlytics](https://firebase.google.com/docs/crashlytics) support
 
@@ -20,8 +22,6 @@ description: Flutter Fast Roadmap
 🔲 Media Storage support for all PaaS providers
 
 🔲 Offline/no-PaaS option
-
-🔲 Shorebird support in CI/CD scripts
 
 🔲 GitHub Workflows
 

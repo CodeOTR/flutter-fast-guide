@@ -94,6 +94,13 @@ export default defineConfig({
         label: 'Changelog',
         link: '/docs/roadmap/changelog/'
       }]
+    },
+    {
+      label: 'For App Users',
+      items: [{
+        label: 'Request Account Deletion',
+        link: '/docs/users/delete-account-steps/'
+      },]
     }]
   })]
 });
