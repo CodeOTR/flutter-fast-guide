@@ -12,7 +12,7 @@ To delete your account, perform the following steps:
 
 4. Enter your email and password
 
-![Alt text](image.png)
+![Alt text](./image.png)
 
 5. Press "Delete account"
 
