@@ -3,6 +3,8 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://codeotr.github.io/flutter-fast-guide/',
+  base: '/flutter-fast-guide',
   integrations: [
     starlight({
       title: "Flutter Fast",
