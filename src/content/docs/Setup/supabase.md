@@ -88,3 +88,12 @@ Once the credential is created, locate it on the credentials tab and copy the cl
 Once the credential is created, locate it on the credentials tab and copy the client ID. Add this to the `config.json` file under the `GOOGLE_WEB_CLIENT_ID` key.
 
 You will also need to add this value in your Supabase console under "Authorized Client IDs" in the Google Sign In section.
+
+### Apple Sign In
+Add the [sign_in_with_apple](https://pub.dev/packages/sign_in_with_apple) package to your `pubspec.yaml`.
+
+#### Android
+
+#### iOS
+Open your project in Xcode and add the "Sign in with Apple" capability.
+![Sign in with Apple Capability](./image-2.png)
