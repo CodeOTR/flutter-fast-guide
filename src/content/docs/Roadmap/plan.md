@@ -7,9 +7,19 @@ description: Flutter Fast Roadmap
 
 ✅ Shorebird support in CI/CD scripts
 
-🔲 [Crashlytics](https://firebase.google.com/docs/crashlytics) support
+✅ Alternative authentication methods
 
 ✅ [PocketBase](https://pocketbase.io/) support
+
+✅ [Posthog](https://posthog.com/) support
+
+✅ Offline/no-PaaS option
+
+🔲 Full web compatibility
+
+🔲 Remote config setup with minimum soft and hard versions
+
+🔲 [Crashlytics](https://firebase.google.com/docs/crashlytics) support
 
 🔲 [AWS Amplify](https://docs.amplify.aws/start/q/integration/flutter/) support
 
@@ -23,16 +33,10 @@ description: Flutter Fast Roadmap
 
 🔲 Media Storage support for all PaaS providers
 
-🔲 Offline/no-PaaS option
-
 🔲 GitHub Workflows
 
 🔲 Option to remove service abstractions
 
-🔲 Alternative authentication methods
-
 🔲 Basic library viewer module for all PaaS providers
 
 🔲 Support for [Google Mobile ads](https://pub.dev/packages/google_mobile_ads)
-
-🔲 Remote config setup with minimum soft and hard versions
