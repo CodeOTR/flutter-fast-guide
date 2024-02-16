@@ -51,7 +51,7 @@ export default defineConfig({
             },
             {
               label: "Firebase",
-              link: "/setup/firebase",
+              link: "/setup/firebase/firebase",
             },
             {
               label: "PocketBase",
@@ -67,7 +67,7 @@ export default defineConfig({
             },
             {
               label: "Supabase",
-              link: "/setup/supabase",
+              link: "/setup/supabase/supabase",
             },
           ],
         },
