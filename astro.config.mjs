@@ -46,6 +46,10 @@ export default defineConfig({
               link: "/setup/amplitude",
             },
             {
+              label: "Appwrite",
+              link: "/setup/appwrite/appwrite",
+            },
+            {
               label: "Fastlane",
               link: "/setup/fastlane",
             },
