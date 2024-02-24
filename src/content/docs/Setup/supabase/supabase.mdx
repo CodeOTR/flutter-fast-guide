@@ -42,7 +42,7 @@ The [Flutter setup steps](https://supabase.com/docs/guides/getting-started/quick
 
 Navigate to the Authentication tab in your Supabase console, select the "Providers" section, and enable Google Sign In.
 
-![Supabase Google Sign In](./image-1.png)
+![Supabase Google Sign In](./image.png)
 
 Next add the [google_sign_in](https://pub.dev/packages/google_sign_in) package to your `pubspec.yaml`.
 
@@ -100,9 +100,13 @@ Once the credential is created, locate it on the credentials tab and copy the cl
 4. Enter your credential name, package name, and SHA1 from above
 5. Click "Create"
 
-Once the credential is created, locate it on the credentials tab and copy the client ID. Add this to the `config.json` file under the `GOOGLE_WEB_CLIENT_ID` key.
+Once the credential is created, locate it on the credentials tab and copy the client ID. Add this to:
+1. The `config.json` file under the `GOOGLE_WEB_CLIENT_ID` key
+2. `index.html` in the meta tag named "google-signin-client_id"
 
 You will also need to add this value in your Supabase console under "Authorized Client IDs" in the Google Sign In section.
+
+Lastly, enable the [People API](https://console.cloud.google.com/apis/api/people.googleapis.com/metrics?project=flutter-fast) in th GCP console.
 
  </TabItem>
  </Tabs>
@@ -182,7 +186,7 @@ Open your project in Xcode and add the "Sign in with Apple" capability.
 
 </TabItem>
     <TabItem label="Web">
-    
+    In the Supabase console, navigate to Authentication > URL Configuration > Site URL. When developing, you can specify the web port using the `--web-port=5000` argument. For the OAuth redirect to work in development, you need to be running the app on the port specified in your Supabase console.
     </TabItem>
 
 </Tabs>
